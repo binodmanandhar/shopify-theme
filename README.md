@@ -34,6 +34,8 @@ npm install
 shopify theme dev
 ```
 
+##### It opens with http://127.0.0.1:9292
+
 ```
 npx tailwindcss -i ./src/tailwind.css -o ./assets/application.css --watch
 ```
