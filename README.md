@@ -39,3 +39,13 @@ shopify theme dev
 ```
 npx tailwindcss -i ./src/tailwind.css -o ./assets/application.css --watch
 ```
+
+#### How to go to theme preview
+
+```https://admin.shopify.com/store/[storename]/themes/[theme_preview_id]/editor
+
+```
+
+```
+https://admin.shopify.com/store/binodstore/themes/133817925692/editor
+```
