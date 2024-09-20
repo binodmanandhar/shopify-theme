@@ -12,7 +12,7 @@ If you don't have Shopify CLI installed to your computer, navigate to the [insta
 
 ### Few setup before running
 
-#### create a folder call _src_ in root directory
+#### create a folder call _src_ in root directory and create a file as tailwind.css
 
 Add following files
 
@@ -22,6 +22,12 @@ Add following files
 @tailwind utilities;
 ```
 
+#### Add node modules
+
+```
+npm install
+```
+
 #### Running theme CLI command in local
 
 ```
@@ -29,5 +35,5 @@ shopify theme dev
 ```
 
 ```
-npx tailwindcss -i ./src/tailwind.css -o ./assets/application.css - - watch
+npx tailwindcss -i ./src/tailwind.css -o ./assets/application.css --watch
 ```
